@@ -1,0 +1,100 @@
+
+.home {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    /* font: bold; */
+    /* font-weight: 500; */
+}
+.img1 {
+  height: 50px;
+  width: 100px;
+  object-fit: fill;
+}
+.wizard {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    /* padding: 30px; */
+    /* padding: 4rem 12% 4rem; */
+    /* background: rgba(0, 0, 0, 0.3); */
+    background-color: black;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 5;
+}
+.navbar-nav {
+    gap: 0px;
+    text-decoration: none;
+}
+.CWorld{
+    color: black;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36.31px;
+    letter-spacing: 0%;
+}
+
+/* General Button Styling */
+.contact-btn {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    /* font: 500; */
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    
+  }
+  
+  /* Button hover effect */
+  .contact-btn:hover {
+    background-color: white;
+    border: 2px soild black !important;
+    color: black;
+    /* transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+  }
+  
+  /* Responsive button for screens smaller than 600px */
+  @media (max-width: 600px) {
+   .contact-btn {
+      width: 100%;
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+  
+  /* Full width on smaller screens */
+  @media (max-width: 991px) {
+    .contact-btn {
+      width: 100%;
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    /* For screens smaller than 600px */
+    .vec {
+        height: 50px;
+        border-bottom: none;
+    }
+    .primary{
+        width: 100%;
+        margin: 10px 0;
+        display: none;
+    }
+
+    .navbar-nav{
+        gap: 10px;
+        margin-top: 10px;
+    }
+}
+
