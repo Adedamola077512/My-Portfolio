@@ -3,7 +3,7 @@ import './About.css'
 import adedayo from '../assets/Adedayo.png'
 const About = () => {
   return (
-    <div className='about py-5 '>
+    <div className='about py-5 ' id='about'>
         <h1 className='text-center text-white'><b>ABOUT ME</b></h1>
         <div className='container about-flex'>
             <div>

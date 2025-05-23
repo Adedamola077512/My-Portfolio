@@ -1,6 +1,9 @@
 .about {
     background-color: #131313;
 }
+#about {
+    color: white!important;
+}
 .about-flex {
     display: flex;
     align-items: center;

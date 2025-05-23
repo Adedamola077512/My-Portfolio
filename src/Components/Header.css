@@ -8,6 +8,7 @@ section {
     /* align-items: center; */
     justify-content: center;
     align-items: center;
+    color: white;
     gap: 80px;
     /* justify-content: space-between; */
 }

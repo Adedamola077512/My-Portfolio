@@ -1,10 +1,13 @@
 
-.home {
+.hom {
     text-decoration: none;
-    color: whitesmoke;
+    color: white!important;
     font-size: 15px;
-    /* font: bold; */
-    /* font-weight: 500; */
+}
+.hom:hover {
+    text-decoration: none;
+    color: whitesmoke!important;
+    border-bottom: 2px solid #00ffee;
 }
 .img1 {
   height: 50px;
