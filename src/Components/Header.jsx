@@ -34,8 +34,8 @@ const Header = () => {
           <a href="https://www.instagram.com/deewan_special/"><CiInstagram /></a>
         </div>
         <div className='btn-group'>
-          <a href="#" className='btn'>Hire</a>
-          <a href="#" className='btn'>Download CV</a>
+          <a href="https://wa.link/8oosy6" className='btn'>Hire</a>
+          {/* <a href="#" className='btn'>Download CV</a> */}
         </div>
       </div>
         <div className='home-img'  data-aos="fade-left">

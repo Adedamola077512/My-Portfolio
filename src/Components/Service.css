@@ -1,0 +1,52 @@
+.service{
+    background-color: #080808;
+    color: white;
+    padding: 50px 0;
+    height: 90vh;
+}
+.service-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.service-cup {
+    width: 250px;
+    height: 240px;
+    border-radius: 50%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    font: 500;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    border: 2px solid #00ffee;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+.service-cup:hover {
+    box-shadow: 0 0 20px rgba(0, 255, 255, 1);
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 600px) {
+    .service {
+        height: auto;
+    }
+    .service-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .service-cup {
+        width: 200px;
+        height: 200px;
+        /* margin-top: -30px; */
+    }
+    .service-text {
+        font-size: 14px;
+    }
+    
+}

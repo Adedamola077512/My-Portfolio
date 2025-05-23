@@ -3,7 +3,7 @@
     bottom: 0;
     width: 100%;
     padding: 40px 0;
-    background-color: var(--second-bg-color);
+    background-color: #080808;
 }
 .footer .social{
     text-align: center;

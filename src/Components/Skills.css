@@ -1,5 +1,6 @@
 .skills {
-    background: var(--bg-color);
+    /* background: var(--bg-color); */
+    background-color: #131313;
     padding: 30px;
 }
 .skills-list {
