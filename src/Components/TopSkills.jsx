@@ -1,5 +1,5 @@
 import React from 'react'
-import './TopSkill.css'
+import './TopSkills.css'
 const TopSkill = () => {
   return (
     <div className='topSkill' id='skill'>
