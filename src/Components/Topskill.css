@@ -2,7 +2,6 @@
     background-color: #080808;
     color: #fff;
     padding: 50px;
-    /* text-align: center; */
     font-family: 'Arial', sans-serif;
 }
 .skill-flex {
@@ -10,7 +9,6 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
-    /* flex-wrap: wrap; */
 }
 .skill {
     width: 350px;
