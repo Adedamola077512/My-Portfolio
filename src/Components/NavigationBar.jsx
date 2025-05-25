@@ -14,7 +14,7 @@ function NavigationBar() {
           <Nav className="mx-auto text-center">
             <Nav.Link href="#about" className='hom'><b>About</b></Nav.Link>
             <Nav.Link href="#project" className='hom'><b>Project</b></Nav.Link>
-            <Nav.Link href="/partner" className='hom'><b>Service</b></Nav.Link>
+            <Nav.Link href="/#service" className='hom'><b>Service</b></Nav.Link>
             <Nav.Link href="#skill" className='hom'><b>Skill</b></Nav.Link>
             <Nav.Link href="/about" className='hom'><b>Testimonials</b></Nav.Link>
           </Nav>
